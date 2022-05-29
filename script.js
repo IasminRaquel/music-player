@@ -2,16 +2,14 @@ let musics = [
   {
     title: 'Get Free', 
     artist: 'Lana del Rey', 
-    src: '/music/16 Get-Free.mp3', 
-    img: '/images/birds.jpg',
-    background: 'linear-gradient(45deg, rgba(16,94,164,1) 0%, rgba(190,172,190,0.9956933456976541) 50%, rgba(16,94,164,1) 100%);'
+    src: './music/16 Get-Free.mp3', 
+    img: './images/birds.jpg',
   },
   {
     title: 'Jealous Girl', 
     artist: 'Lana del Rey', 
-    src: '/music/jealous-girl.mp3', 
-    img: '/images/waves.jpg',
-    background: 'linear-gradient(45deg, rgba(0,46,87,1) 0%, rgba(191,186,111,0.9956933456976541) 51%, rgba(16,141,209,1) 100%);'
+    src: './music/jealous-girl.mp3', 
+    img: './images/waves.jpg',
   }
 ];
 
