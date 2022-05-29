@@ -2,14 +2,14 @@ let musics = [
   {
     title: 'Get Free', 
     artist: 'Lana del Rey', 
-    src: '/music/get-Free.mp3', 
-    img: '/images/birds.jpg',
+    src: 'music/get-Free.mp3', 
+    img: 'images/birds.jpg',
   },
   {
     title: 'Jealous Girl', 
     artist: 'Lana del Rey', 
-    src: '/music/jealous-girl.mp3', 
-    img: '/images/waves.jpg',
+    src: 'music/jealous-girl.mp3', 
+    img: 'images/waves.jpg',
   }
 ];
 
