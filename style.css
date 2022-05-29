@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(16,94,164);
+  background: linear-gradient(45deg, rgba(16,94,164,1) 0%, rgba(190,172,190,0.9956933456976541) 50%, rgba(16,94,164,1) 100%);
+  color: aliceblue;
+}
+
+.music-time {
+  height: 5px;
+  border: 2px solid whitesmoke;
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 10px;
+  width: 0;
+  align-self: center;
+  background-color: rgb(239, 240, 239);
+}
+
+.ponto {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  margin-left: -2px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+.music-information {
+  width: 300px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+.player {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.music-duration {
+  width: 300px;
+  display: flex;
+  /* background-color: red;s */
+  justify-content: space-between;
+}
+
+.play-button, .pause-button{
+  font-size: 50px;
+  cursor: pointer;
+}
+
+
+.arrow {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#pause-button {
+  display: none;
+}
