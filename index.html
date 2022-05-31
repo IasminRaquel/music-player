@@ -1,53 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>player</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="" />
-  </head>
-  <body>
-    <div class="container">
-      <img src="images/birds.jpg" alt="birds flying" />
 
-      <div class="music-information">
-        <h2 class="music-name">Music Name</h2>
-        <i class="artist-name">Artist Name</i>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>player</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="" />
+</head>
 
-      <div class="music-time">
-        <div class="progress-bar"></div>
-        <div class="ponto"></div>
-      </div>
+<body>
+  <div class="container">
+    <img src="images/birds.jpg" alt="birds flying" />
 
-      <div class="music-duration">
-        <p class="start-music">0:00</p>
-        <p class="end-music">3</p>
-      </div>
-
-      <div class="player">
-        <i class="fa-solid fa-backward arrow previous"></i>
-        <i class="fa-solid fa-play play-button"></i>
-        <i id="pause-button" class="fa-solid fa-pause pause-button"></i>
-        <i class="fa-solid fa-forward arrow next"></i>
-      </div>
-
-      <audio src="music/get-Free.mp3"></audio>
+    <div class="music-information">
+      <h2 class="music-name">Music Name</h2>
+      <i class="artist-name">Artist Name</i>
     </div>
 
-    <script
-      type="module"
-      src="https://kit.fontawesome.com/0ea9434e5c.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
-  </body>
+    <div class="music-time">
+      <div class="progress-bar"></div>
+      <div class="ponto"></div>
+    </div>
+
+    <div class="music-duration">
+      <p class="start-music">0:00</p>
+      <p class="end-music">3</p>
+    </div>
+
+    <div class="player">
+      <i class="fa-solid fa-backward arrow previous"></i>
+      <i class="fa-solid fa-play play-button"></i>
+      <i id="pause-button" class="fa-solid fa-pause pause-button"></i>
+      <i class="fa-solid fa-forward arrow next"></i>
+    </div>
+
+    <audio src="music/get-Free.mp3"></audio>
+  </div>
+
+  <script type="module" src="https://kit.fontawesome.com/0ea9434e5c.js" crossorigin="anonymous"></script>
+  <script type="module" src="script.js"></script>
+</body>
+
 </html>
