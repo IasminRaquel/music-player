@@ -1,5 +1,5 @@
-import { loudBar } from '/modules/loud.js'
-import { secondsToMinutes } from '/modules/secondsToMinute.js'
+import { loudBar } from './modules/loud.js'
+import { secondsToMinutes } from './modules/secondsToMinute.js'
 
 let musics = [
   {
